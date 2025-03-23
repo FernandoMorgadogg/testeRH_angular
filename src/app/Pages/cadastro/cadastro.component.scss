@@ -1,0 +1,38 @@
+.container{
+  width: 90%;
+
+  .line{
+    display: flex;
+
+    margin: 10px;
+
+    .text{
+      font-size: larger;
+    }
+
+    .control{
+      display: flex;
+      flex-direction: column;
+
+      margin: 10px;
+
+    }
+  }
+
+}
+
+
+
+
+.control_action{
+  display: flex;
+  flex-direction: row-reverse;
+
+  .control{
+    margin: 10px;
+  }
+
+}
+
+
+

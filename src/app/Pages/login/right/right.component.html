@@ -1,0 +1,32 @@
+<form [formGroup]="formLogin" (ngSubmit)="logar()">
+
+  <div class="container">
+
+      <div class="control control_text">
+        <label>Nome</label>
+        <input type="text" formControlName="nome">
+      </div>
+
+      <div class="control control_text">
+        <label>E-Mail</label>
+        <input type="email" formControlName="email">
+      </div>
+
+      <div class="control control_text">
+        <label>Senha</label>
+        <input type="text" formControlName="senha">
+      </div>
+
+      <div class="control control_text">
+        <label>Confirmação de senha</label>
+        <input type="text" formControlName="confirmacao">
+      </div>
+
+      <div class="control">
+        <input type="checkbox" formControlName="termo">&nbsp;Eu aceito os termos
+      </div>
+
+      <div class="control"><button type="submit">Criar conta</button></div>
+
+  </div>
+</form>

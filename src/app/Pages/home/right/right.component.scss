@@ -1,0 +1,29 @@
+.container{
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.info{
+
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.configurar{
+  height: 40px;
+  width: 300px;
+
+  margin-top: 20px;
+  margin-bottom: 10;
+
+  color:white;
+  background-color: rgb(41,120,255);
+
+  border: 0px;
+
+}
+

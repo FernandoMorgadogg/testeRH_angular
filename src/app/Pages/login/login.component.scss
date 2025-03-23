@@ -1,0 +1,15 @@
+.container{
+
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  .left{
+    background-color: blue;
+    width: 70%;
+  }
+  .right{
+    background-color: gainsboro;
+    width: 30%;
+  }
+}

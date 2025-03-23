@@ -1,0 +1,96 @@
+<form [formGroup]="formCadastro">
+
+  <div class="container">
+
+    <div class="line"><div class="text"><strong>Editar Empresa</strong></div></div>
+
+    <div class="line">
+      <div class="control">
+        <label>Tipo da empresa</label>
+        <input formControlName="tipo" type="text">
+      </div>
+    </div>
+
+
+    <!-- nome e cnpj -->
+    <div class="line">
+      <div class="control">
+        <label>Nome da empresa</label>
+        <input formControlName="nome" type="text">
+      </div>
+
+      <div class="control">
+        <label>Cnpj da empresa</label>
+        <input formControlName="cnpj" type="text">
+      </div>
+    </div>
+
+    <!-- endereco -->
+    <div class="line">
+      <div class="control">
+        <label>cep</label>
+        <input formControlName="cep" type="text">
+      </div>
+
+      <div class="control">
+        <label>endereco</label>
+        <input formControlName="endereco" type="text">
+      </div>
+
+      <div class="control">
+        <label>bairro</label>
+        <input formControlName="bairro" type="text">
+      </div>
+
+      <div class="control">
+        <label>estado</label>
+        <input formControlName="estado" type="text">
+      </div>
+
+      <div class="control">
+        <label>cidade</label>
+        <input formControlName="cidade" type="text">
+      </div>
+
+      <div class="control">
+        <label>complemento</label>
+        <input formControlName="complemento" type="text">
+      </div>
+    </div>
+
+
+    <!-- dados pessoal -->
+    <div class="line">
+      <div class="control">
+        <label>celular</label>
+        <input formControlName="celular" type="text">
+      </div>
+
+      <div class="control">
+        <label>nome do administrador</label>
+        <input formControlName="nomeAdm" type="text">
+      </div>
+
+      <div class="control">
+        <label>cpf</label>
+        <input formControlName="cpf" type="text">
+      </div>
+
+      <div class="control">
+        <label>e-mail</label>
+        <input formControlName="email" type="text">
+      </div>
+    </div>
+
+    <div class="control_action">
+      <button class="control" (click)="cadastrar()">Salvar</button>
+      <button class="control" (click)="voltarHome()">Cancelar</button>
+    </div>
+
+  </div>
+
+
+
+
+</form>
+

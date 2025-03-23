@@ -1,0 +1,24 @@
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  .control{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .control_text{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+input{
+  height: 20px;
+}
+
